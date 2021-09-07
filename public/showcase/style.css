@@ -1,0 +1,102 @@
+/* _________________ html, and tags... _________________________________ */
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:active,
+:hover,
+:focus {
+  outline: 0 !important;
+  outline-offset: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-weight: 500;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+    letter-spacing: 0.02em;
+}
+
+/* ____________ helper css ______________ */
+
+.b {
+    border: 1px solid rgba(0, 0, 0, 0.219);
+}
+
+.bb {
+    border: 1px solid rgba(0, 0, 0, 0.404);
+}
+
+.bbb {
+    border: 1px solid rgba(0, 0, 0, 0.699);
+}
+
+
+
+
+/* ______ actual styling _________ */
+
+.bg-grad {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(139, 0, 203, 1) 100%
+  );
+}
+
+
+.form-control, .form-select, .btn {
+    border-radius: unset;
+}
+
+.login-btn {
+  border-radius: unset;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 0%,
+    rgba(139, 0, 203, 1) 100%
+  );
+  border: unset;
+}
+
+.text-indigo {
+  color: #7200ab!important;
+}
+
+
+
+.logout-btn:hover {
+  color: white!important;
+}
+

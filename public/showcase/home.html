@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link href="style.css" rel="stylesheet">
+
+    <script src="main.js" rel="script"></script>
+
+
+    <title>Home</title>
+  </head>
+  <body>
+
+
+<div class="bg-grad d-flex justify-content-center align-items-center">
+  <div class="container bg-white rounded-3" style="height: 95vh;">
+
+
+
+    <nav class=" navbar navbar-expand-lg navbar-light bg-light  border-2 border-secondary" >
+      <div class="container-fluid">
+        <a class="navbar-brand text-indigo" href="#">airindustry</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link text-dark btn btn-outline-secondary py-1 logout-btn" href="#">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <form action="register.html">
+    <div class="container-fluid py-2 mt-4 row">
+      <div class="col-4 ">
+        <div class="d-flex border border-1 border-secondary">
+          <input class="form-control" type="search" placeholder="Search for emails" aria-label="Search">
+          <button class="btn btn-outline-success px-4" type="submit"> <i class="fas fa-search"></i></button>
+        </div>
+
+      </div>
+      <div class="col-4 ">
+        <div class="d-flex border border-1 border-secondary">
+          <input class="form-control" type="search" placeholder="Search for Phone Numbers" aria-label="Search">
+          <button class="btn btn-outline-success px-4" type="submit"> <i class="fas fa-search"></i></button>
+        </div>
+      </div>
+
+      <div class="col-4 ">
+        <div class="d-flex border border-1 border-secondary">
+          <select class="form-select" aria-label="Default select example">
+
+            <option value="0">All</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+            <option value="3">Other</option>
+          </select>
+          <button class="btn btn-outline-success px-4" type="submit"> <i class="fas fa-search"></i></button>
+
+        </div>
+      </div>
+    </div>
+  </form>
+
+    <div class="container mt-5">
+    <table class="table border border-2  table-hover">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Emails</th>
+          <th scope="col">Phone Numbers</th>
+          <th scope="col">Gender</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+
+      </tbody>
+    </table>
+    </div>
+
+
+
+
+  </div>
+
+</div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
